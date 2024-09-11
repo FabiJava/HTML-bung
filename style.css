@@ -1,0 +1,64 @@
+<style>
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; /* Standardschriftart für den Text */
+}
+
+.hintergrund {
+  background-image: url('https://images6.alphacoders.com/136/thumb-1920-1366181.jpeg'); /* Pfad zum Hintergrundbild */
+  background-size: cover; /* Skaliert das Bild, um den gesamten Container zu bedecken */
+  background-position: center; /* Zentriert das Hintergrundbild */
+  min-height: 100vh; /* Setzt die minimale Höhe auf 100% der Bildschirmhöhe */
+  display: flex; /* Flexbox zur Zentrierung des Inhalts verwenden */
+  flex-direction: column; /* Stellt sicher, dass die Inhalte untereinander gestapelt werden */
+  align-items: center; /* Zentriert die Inhalte horizontal */
+  justify-content: center; /* Zentriert die Inhalte vertikal */
+  color: white; /* Textfarbe auf Weiß setzen */
+  text-align: center; /* Text zentrieren */
+  position: relative; /* Erlaubt eine absolute Positionierung der Kinder */
+  padding: 20px; /* Fügt Polsterung hinzu, um den Text nicht am Rand kleben zu lassen */
+}
+
+.container h1 {
+  font-family: 'Playfair Display', serif; /* Stilvolle Schriftart für Überschrift */
+  font-size: 48px; /* Schriftgröße anpassen */
+  margin: 0; /* Außenabstand entfernen */
+  padding: 0; /* Innenabstand entfernen */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Schatten für bessere Lesbarkeit */
+}
+
+nav {
+  margin-top: 20px; /* Abstand über dem Navigationsmenü */
+}
+
+nav ul {
+  list-style: none; /* Entfernt Aufzählungszeichen */
+  padding: 0; /* Entfernt Innenabstand */
+  margin: 0; /* Entfernt Außenabstand */
+  display: flex; /* Setzt das Layout der Navigation auf Flexbox */
+  justify-content: center; /* Zentriert die Navigationslinks */
+}
+
+nav ul li {
+  margin: 0 15px; /* Fügt Abstand zwischen den Navigationslinks hinzu */
+}
+
+nav ul li a {
+  color: white; /* Setzt die Textfarbe auf Weiß */
+  text-decoration: none; /* Entfernt die Unterstreichung der Links */
+}
+
+footer {
+  background-color: #8B4513; /* Hintergrundfarbe der Fußzeile */
+  color: white; /* Textfarbe weiß */
+  padding: 20px; /* Innenabstand */
+  text-align: center; /* Zentriert den Text */
+  width: 100%; /* Breite auf 100% setzen */
+  position: relative; /* Standardmäßige Positionierung */
+  margin-top: auto; /* Lässt die Fußzeile nach dem Hauptinhalt erscheinen */
+}
+
+
+  
+</style>
